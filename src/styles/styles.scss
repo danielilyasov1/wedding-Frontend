@@ -1,0 +1,18 @@
+//setup
+@import 'setup/variables.scss';
+@import 'setup/typography.scss';
+
+// basics
+@import 'basics/helpers.scss';
+@import 'basics/base.scss';
+
+// components
+@import 'cmps/header.scss';
+
+@import 'cmps/footer.scss';
+
+// views
+@import 'views/home.scss';
+
+
+// ICONS

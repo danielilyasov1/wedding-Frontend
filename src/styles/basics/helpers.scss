@@ -1,0 +1,53 @@
+
+.main-layout {
+  max-width: 1200px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (max-width: 768px) {
+  .main-layout {
+    max-width: 1200px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.btn {
+  // background-color: $clr3;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 16px 48px;
+  }
+}
